@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    color: #212121;
+}
+header, footer {
+    background-color: #0D47A1;
+    color: #FFFF;
+    padding: 10px 0;
+}
+header h1, footer p {
+    margin: 0;
+    text-align: center;
+}
+nav a {
+    color: #FFFF;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #FFC107;
+}
+.main-content {
+    padding: 20px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0D47A1;
+    margin-top: 20px;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.services .card, .clients .card, .blog .card {
+    margin-bottom: 20px;
+    height: 100%;
+}
+.services .card-title, .clients .card-title, .blog .card-title {
+    color: #0D47A1;
+}
+.services .card-text, .clients .card-text, .blog .card-text {
+    color: #212121;
+}
+.aside-content {
+    background-color: #FFC107;
+    padding: 20px;
+    margin-top: 20px;
+}
+.aside-content h3 {
+    margin-top: 0;
+}
+footer .social-icons {
+    margin: 10px 0;
+}
+footer .social-icons a {
+    color: #FFFF;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 2em;
+}
+footer .social-icons a:hover {
+    color: #FFC107;
+}
+a {
+    text-decoration: none;
+}
